@@ -286,30 +286,6 @@ const ContactSection = () => {
             </form>
           </div>
         </div>
-
-        {/* Donation section */}
-        <div 
-          className={`mt-20 text-center transition-all duration-1000 ${
-            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
-          }`}
-          style={{ transitionDelay: '1000ms' }}
-        >
-          <h3 className="text-2xl font-bold text-gray-900 mb-4">Support Our Mission</h3>
-          <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
-            Help us deliver the message to Humanity. Gnostic Spiritual Alliance is a non-profit 501(c) organization. 
-            All donations are tax deductible.
-          </p>
-          <a 
-            href="#donate"
-            className="inline-block px-8 py-4 rounded-xl font-medium text-white transition-all duration-300 transform hover:scale-105 hover:shadow-xl"
-            style={{ 
-              background: `linear-gradient(135deg, ${colors.primaryBlue}, ${colors.accentRed})`,
-              boxShadow: `0 10px 20px -5px ${colors.primaryBlue}30`
-            }}
-          >
-            Make a Donation
-          </a>
-        </div>
       </div>
     </section>
   );
